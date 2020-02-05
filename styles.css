@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.calculator {
+  margin: 300px 500px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.operators {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 115px;
+  top: -212px;
+}
+
+input {
+  background-color: lightblue;
+  display: flex;
+  height: 50px;
+  width: 100px;
+  font-size: large;
+}
+
+label {
+  font-size: large;
+}
+
+button {
+  background-color: lightyellow;
+  display: flex;
+  height: 50px;
+  width: 50px;
+  font-size: large;
+}
